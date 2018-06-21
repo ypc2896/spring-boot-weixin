@@ -1,0 +1,73 @@
+{
+  "button": [
+    {
+      "type": "view",
+      "name": "子菜单1-1",
+      "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx08b8a154a945326c&redirect_uri=http://39.105.27.244/index.html&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect"
+    },
+    {
+      "type": "click",
+      "name": "测试子菜单2",
+      "key": "2",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "子菜单2-1",
+          "key": "21"
+        },
+        {
+          "type": "click",
+          "name": "子菜单2-2",
+          "key": "22"
+        },
+        {
+          "type": "click",
+          "name": "子菜单2-3",
+          "key": "23"
+        },
+        {
+          "type": "click",
+          "name": "子菜单2-4",
+          "key": "24"
+        },
+        {
+          "type": "click",
+          "name": "子菜单2-5",
+          "key": "25"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "name": "测试子菜单3",
+      "key": "3",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "子菜单3-1",
+          "key": "31"
+        },
+        {
+          "type": "click",
+          "name": "子菜单3-2",
+          "key": "32"
+        },
+        {
+          "type": "click",
+          "name": "子菜单3-3",
+          "key": "33"
+        },
+        {
+          "type": "click",
+          "name": "子菜单3-4",
+          "key": "34"
+        },
+        {
+          "type": "click",
+          "name": "子菜单3-5",
+          "key": "35"
+        }
+      ]
+    }
+  ]
+}
